@@ -1,0 +1,12 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #D83289;
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+
+  .location{
+    margin-left: 50px;
+  }
