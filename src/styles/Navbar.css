@@ -41,5 +41,14 @@
   }
 
   .location{
-    margin-left: 5px;
+    margin-left: 20px;
+  }
+
+  .about{
+    border: none;
+    background-color: white;
+    color: grey;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
   }

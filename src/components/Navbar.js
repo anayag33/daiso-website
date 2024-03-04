@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Navbar.css';
 import Logo from '../assets/DaisoLogo.png';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -13,9 +14,22 @@ function Navbar() {
         <p className='location'> Choose Location</p>
       </div>
       <div className='navbarW'>
-        <img className='logo' src={Logo}/>
-        <p className='location'>Home</p>
-        <p className='location'>About</p>
+        <Link to='/'>
+          <img className='logo' src={Logo}/>
+        </Link>
+        <Link to='/'>
+          <button className='about'>
+            Home
+          </button>
+        </Link>
+        <Link to='/favorites'>
+          <button className='about'>
+            Shop
+          </button>
+        </Link>
+        <button className='about'>
+          About
+        </button>
         <input className='searchbar' type="text" placeholder="Search" />
       </div>
     </div>
