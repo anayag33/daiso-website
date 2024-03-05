@@ -9,6 +9,7 @@ import SignIn from './pages/SignIn.js';
 import SignUp from './pages/SignUp.js';
 import StoreLocator from './pages/StoreLocator.js';
 import Favorites from './pages/Favorites.js';
+import About from './pages/About.js';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/signup" element={<SignUp/>}/>
           <Route path="/storelocator" element={<StoreLocator/>}/>
           <Route path="/favorites" element={<Favorites/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
         <Footer />
       </Router>

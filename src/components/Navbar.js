@@ -22,7 +22,7 @@ function Navbar() {
             Home
           </button>
         </Link>
-        <Link to='/favorites'>
+        <Link to='/explore'>
           <button className='about'>
             Shop
           </button>

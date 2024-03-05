@@ -1,0 +1,33 @@
+.categoryCard{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.imageCC {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .buttonCC{
+    background-color: #D83289;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 130px;
+  }
+
+  .verticalAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+  }

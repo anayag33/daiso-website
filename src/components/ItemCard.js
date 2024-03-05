@@ -16,7 +16,7 @@ function ItemCard({image, name,  price, inStock}) {
         <img className='rating' src={Rating}></img>
         <p className='text'>${price}</p>
         <p className='text'>In stock</p>
-        <button className='button'>
+        <button className='buttonAddtoCart'>
           Add to Cart
         </button>
       {/* </div> */}
