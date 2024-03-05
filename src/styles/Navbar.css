@@ -52,3 +52,18 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .location{
+    border: none;
+    background-color: #D83289;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .cart{
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+  }

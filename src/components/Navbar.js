@@ -1,17 +1,24 @@
 import React from 'react'
 import '../styles/Navbar.css';
 import Logo from '../assets/DaisoLogo.png';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { Link } from "react-router-dom";
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 function Navbar() {
   return (
     <div>
       <div className='navbarP'>
         <div className='arrow'>
-          <ArrowDropDownIcon />
+          <LocationOnIcon />
         </div>
-        <p className='location'> Choose Location</p>
+        <Link to='/storelocator'>
+          <button className='location'>
+            Choose Location
+            </button>
+        </Link>
       </div>
       <div className='navbarW'>
         <Link to='/'>
@@ -27,10 +34,27 @@ function Navbar() {
             Shop
           </button>
         </Link>
-        <button className='about'>
-          About
-        </button>
+        <Link to='/about'>
+          <button className='about'>
+            About
+          </button>
+        </Link>
         <input className='searchbar' type="text" placeholder="Search" />
+        <Link to='/favorites'>
+          <div className='cart'>
+            <FavoriteIcon />
+          </div>
+        </Link>
+        <Link to='/signin'>
+          <div className='cart'>
+            <AccountCircleIcon />
+          </div>
+        </Link>
+        <Link to='/cart'>
+          <div className='cart'>
+            <ShoppingCartIcon />
+          </div>
+        </Link>
       </div>
     </div>
   )

@@ -10,7 +10,6 @@ function Home() {
           <p>PUT CONTENT HERE</p>
         </div>
       </div>
-      <ItemCard image={BannerImage} name={"Bowls"} price={23} inStock={true}/>
     </div>
   )
 }

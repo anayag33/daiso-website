@@ -11,15 +11,17 @@ function ItemCard({image, name,  price, inStock}) {
       {/* <Link>
         <img  className='image' src={BannerImage} ></img>
       </Link> */}
-      {/* <div className='text'> */}
         <h3 className='text'>{name}</h3>
         <img className='rating' src={Rating}></img>
         <p className='text'>${price}</p>
-        <p className='text'>In stock</p>
+        {inStock ? (
+          <p className='text'>In stock</p>
+        ) : (
+          <p className='text'>Out of stock</p>
+        )}
         <button className='buttonAddtoCart'>
           Add to Cart
         </button>
-      {/* </div> */}
     </div>
   )
 }
