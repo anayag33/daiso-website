@@ -19,14 +19,19 @@ import FruitHiChew from '../assets/FruitHiChew.png';
 import ChocolatePocky from '../assets/ChocolatePocky.png';
 import RamuneSodaPlain from '../assets/RamuneSodaPlain.png';
 import '../styles/Explore.css';
+import { Link } from "react-router-dom";
 
 function Explore() {
   return (
     <div>
         <div className='containerTop'>
-            <CategoryCards text={"PLUSHIES"} image={PlushiesCover}/>
+            <Link to='/plushies'>
+                <CategoryCards text={"PLUSHIES"} image={PlushiesCover} to={'/plushies'}/>
+            </Link>
             <CategoryCards text={"STATIONARY"} image={StationaryCover}/>
-            <CategoryCards text={"SNACKS"} image={SnacksCover}/>
+            <Link to='/snacks'>
+                <CategoryCards text={"SNACKS"} image={SnacksCover} to={'/snacks'}/>
+            </Link>
             <CategoryCards text={"BRANDS"} image={BrandsCover}/>
             <CategoryCards text={"HOME GOODS"} image={HomeGoodsCover}/>
         </div>

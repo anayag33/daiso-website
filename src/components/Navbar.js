@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import SearchIcon from '@mui/icons-material/Search';
 
 function Navbar() {
   return (
@@ -39,7 +40,8 @@ function Navbar() {
             About
           </button>
         </Link>
-        <input className='searchbar' type="text" placeholder="Search" />
+        <SearchIcon />
+        <input className='searchbar' type="text" placeholder="" />
         <Link to='/favorites'>
           <div className='cart'>
             <FavoriteIcon />

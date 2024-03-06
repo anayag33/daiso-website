@@ -10,6 +10,8 @@ import SignUp from './pages/SignUp.js';
 import StoreLocator from './pages/StoreLocator.js';
 import Favorites from './pages/Favorites.js';
 import About from './pages/About.js';
+import Plushies from './pages/Plushies.js';
+import Snacks from './pages/Snacks.js';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -28,6 +30,8 @@ function App() {
           <Route path="/storelocator" element={<StoreLocator/>}/>
           <Route path="/favorites" element={<Favorites/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/plushies" element={<Plushies/>}/>
+          <Route path="/snacks" element={<Snacks/>}/>
         </Routes>
         <Footer />
       </Router>
