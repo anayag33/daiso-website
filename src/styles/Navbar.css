@@ -18,6 +18,8 @@
     color: grey;
     display: flex;
     align-items: center;
+    border: solid;
+    border-color: lightgray;
   }
 
   .searchbar{
