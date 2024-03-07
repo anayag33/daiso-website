@@ -5,7 +5,7 @@
   }
 
 .itemCard{
-    height: 410px;
+    height: 440px;
     width: 200px;
     background-color: white;
     margin: 20px;
@@ -43,5 +43,23 @@
   }
 
   .text{
-    margin-top: 10px;
+    margin-top: 5px;
+  }
+
+  .heartButton{
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 100px;
+    color:#D83289;
+    padding-top: 5px;
+  }
+
+  .emptyHeartButton{
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 100px;
+    color:grey;
+    padding-top: 5px;
   }
