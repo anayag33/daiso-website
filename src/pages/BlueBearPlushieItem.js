@@ -9,6 +9,9 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MessageIcon from '@mui/icons-material/Message';
+import { Link } from "react-router-dom";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
 
 function BlueBearPlushieItem() {
 
@@ -33,7 +36,25 @@ function BlueBearPlushieItem() {
   return (
     <div>
         <div className='banner'>
-            hello
+            <p className='bannerText'>
+                <div className='mainCard'>
+                    <Link to='/'>
+                        <button className='bannerButton'>Home</button> 
+                    </Link>
+                    <ArrowForwardIosIcon />
+                    <Link to='/explore'>
+                        <button className='bannerButton'>Shop</button> 
+                    </Link>
+                    <ArrowForwardIosIcon />
+                    <Link to='/plushies'>
+                        <button className='bannerButton'>Plushies</button> 
+                    </Link>
+                    <ArrowForwardIosIcon />
+                    <Link to='/bluebearplushieitem'>
+                        <button className='bannerButton'>{name}</button> 
+                    </Link>
+                </div>
+            </p>
         </div>
         <div className='main'>
             <div className='cardImage'>

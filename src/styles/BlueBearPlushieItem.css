@@ -14,6 +14,24 @@
     height: 75px;
     width: 100%;
     background-color: #F9E7E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: left; 
+}
+
+.bannerText{
+    margin-left: 50px;
+    font-size: 14px;
+    color: grey;
+}
+
+.bannerButton{
+    border-style: none;
+    background-color: #F9E7E7;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: grey;
 }
 
 .cardImage{
