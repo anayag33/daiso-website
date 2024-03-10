@@ -1,0 +1,137 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.mainCard{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner{
+    height: 75px;
+    width: 100%;
+    background-color: #F9E7E7;
+}
+
+.cardImage{
+    height: 400px;
+    width: 400px;
+    background-color: #F9E7E7;
+    margin: 20px;
+    padding: 15px;
+
+    border-radius: 10px;
+    border-color: lightgray;
+    border-style: none;
+    text-align: left;
+}
+
+.cardText{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+
+    border-radius: 15px;
+    border-width: 2px;
+    /* border-color: lightgray; */
+    border-style: none;
+    text-align: left;
+}
+
+.imageItem {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ratingB{
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .textBear{
+    font-size: 14px;
+  }
+
+  .ratingText{
+    font-size: 14px;
+    margin-top: 13px;
+    color: grey;
+  }
+
+  .priceText{
+    font-size: 20px;
+    color:grey;
+    margin-top: 10px;
+  }
+
+  .colorBlue{
+    height: 30px;
+    width: 30px;
+    background-color: #838F8F;
+    border-style: none;
+    border-radius: 100px;
+    margin: 5px
+  }
+
+  .colorLime{
+    height: 30px;
+    width: 30px;
+    background-color: #D3CB68;
+    border-style: none;
+    border-radius: 100px;
+    margin: 5px
+  }
+
+  .colorYellow{
+    height: 30px;
+    width: 30px;
+    background-color: #F1E7B2;
+    border-style: none;
+    border-radius: 100px;
+    margin: 10px
+  }
+
+  .greyButton{
+    height: 40px;
+    width: 65px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.pinkButton{
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    background-color:#D83289;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.quantityText{
+    font-size: 20px;
+}
+
+.smallSocials{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+}

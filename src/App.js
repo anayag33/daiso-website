@@ -14,6 +14,7 @@ import Plushies from './pages/Plushies.js';
 import Snacks from './pages/Snacks.js';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import BlueBearPlushieItem from './pages/BlueBearPlushieItem.js';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/plushies" element={<Plushies/>}/>
           <Route path="/snacks" element={<Snacks/>}/>
+          <Route path="/bluebearplushieitem" element={<BlueBearPlushieItem/>}/>
         </Routes>
         <Footer />
       </Router>

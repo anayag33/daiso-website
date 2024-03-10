@@ -55,7 +55,9 @@ function Explore() {
         </div>
         <div className='containerBottom'>
             <ItemCard image={BlueBowls} name={"Set of 4 Blue Bowls"} price={1} inStock={true}/>
-            <ItemCard image={BlueBearPlushie} name={"Blue Bear Plushie"} price={3} inStock={false}/>
+            <Link to='/bluebearplushieitem'>
+                <ItemCard image={BlueBearPlushie} name={"Blue Bear Plushie"} price={3} inStock={false}/>
+            </Link>
             <ItemCard image={GreyOvenMitts} name={"Grey Oven Mitts"} price={5} inStock={true}/>
             <ItemCard image={ColoredMarkers} name={"5 Colored Markers"} price={7} inStock={true}/>
         </div>
