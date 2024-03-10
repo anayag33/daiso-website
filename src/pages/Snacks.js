@@ -16,12 +16,30 @@ import LycheeGummyCandies from '../assets/LycheeGummyCandies.png';
 import '../styles/Explore.css';
 import { Link } from "react-router-dom";
 import CategoryCardsLong from '../components/CategoryCardsLong'
+import ViewModuleIcon from '@mui/icons-material/ViewModule';
+import ReorderIcon from '@mui/icons-material/Reorder';
 
 function Snacks() {
   return (
     <div>
         <div className='containerTop'>
             <CategoryCardsLong image={SnacksCoverLong} text={"SNACKS"}/>
+        </div>
+        <div className='horizontal'>
+            <div className='L'>
+                <p className='text'>Showing all 12 results</p>
+            </div>
+            <p className='text'>Views:</p>
+            <button className='symbolButton'>
+                <ViewModuleIcon />
+            </button>
+            <button className='symbolButton'>
+                <ReorderIcon />
+            </button>
+            <div className='R'>
+                <button className='greyButton'>Popularity</button>
+                <button className='pinkButton'>Filter</button>
+            </div>
         </div>
         <div className='containerBottom'>
             <ItemCard image={ChocolateHelloPanda} name={"Chocolate Hello Panda"} price={1} inStock={true}/>

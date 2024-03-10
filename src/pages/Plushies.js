@@ -15,6 +15,8 @@ import LimeBearPlushie from '../assets/LimeBearPlushie.png';
 import LobsterBearPlushie from '../assets/LobsterBearPlushie.png';
 import '../styles/Explore.css';
 import { Link } from "react-router-dom";
+import ViewModuleIcon from '@mui/icons-material/ViewModule';
+import ReorderIcon from '@mui/icons-material/Reorder';
 import CategoryCardsLong from '../components/CategoryCardsLong'
 
 function Plushies() {
@@ -22,6 +24,22 @@ function Plushies() {
     <div>
         <div className='containerTop'>
             <CategoryCardsLong image={PlushiesCoverLong} text={"PLUSHIES"}/>
+        </div>
+        <div className='horizontal'>
+            <div className='L'>
+                <p className='text'>Showing all 12 results</p>
+            </div>
+            <p className='text'>Views:</p>
+            <button className='symbolButton'>
+                <ViewModuleIcon />
+            </button>
+            <button className='symbolButton'>
+                <ReorderIcon />
+            </button>
+            <div className='R'>
+                <button className='greyButton'>Popularity</button>
+                <button className='pinkButton'>Filter</button>
+            </div>
         </div>
         <div className='containerBottom'>
             <ItemCard image={BlueBearPlushie} name={"Blue Bear Plushie"} price={1} inStock={true}/>

@@ -18,6 +18,8 @@ import LobsterBearPlushie from '../assets/LobsterBearPlushie.png';
 import FruitHiChew from '../assets/FruitHiChew.png';
 import ChocolatePocky from '../assets/ChocolatePocky.png';
 import RamuneSodaPlain from '../assets/RamuneSodaPlain.png';
+import ViewModuleIcon from '@mui/icons-material/ViewModule';
+import ReorderIcon from '@mui/icons-material/Reorder';
 import '../styles/Explore.css';
 import { Link } from "react-router-dom";
 
@@ -34,6 +36,22 @@ function Explore() {
             </Link>
             <CategoryCards text={"BRANDS"} image={BrandsCover}/>
             <CategoryCards text={"HOME GOODS"} image={HomeGoodsCover}/>
+        </div>
+        <div className='horizontal'>
+            <div className='L'>
+                <p className='text'>Showing all 12 results</p>
+            </div>
+            <p className='text'>Views:</p>
+            <button className='symbolButton'>
+                <ViewModuleIcon />
+            </button>
+            <button className='symbolButton'>
+                <ReorderIcon />
+            </button>
+            <div className='R'>
+                <button className='greyButton'>Popularity</button>
+                <button className='pinkButton'>Filter</button>
+            </div>
         </div>
         <div className='containerBottom'>
             <ItemCard image={BlueBowls} name={"Set of 4 Blue Bowls"} price={1} inStock={true}/>

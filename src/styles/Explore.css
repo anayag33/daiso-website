@@ -8,7 +8,55 @@
 .containerBottom{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.L{
+    margin-right: 100px;
+}
+.R{
+    margin-left: 100px;
+}
+
+.text{
+    margin-left: 10px;
+    color: grey;
+    font-size: 15px;
+}
+
+.horizontal{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.greyButton{
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    color: grey;
+    border-radius: 5px;
+}
+
+.pinkButton{
+    height: 40px;
+    width: 75px;
+    border-style: none;
+    background-color:#D83289;
+    color: white;
+    border-radius: 5px;
 
 }
+
+.symbolButton{
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 100px;
+    color:#D83289;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
