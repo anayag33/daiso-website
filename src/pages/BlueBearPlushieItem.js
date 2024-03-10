@@ -85,7 +85,7 @@ function BlueBearPlushieItem() {
                     </button>
                 </div>
                 <div>
-                    <button className='greyButton'>
+                    <button className='greyButtonB'>
                         <div className='mainCard'>
                             <RemoveIcon />
                             <p className='quantityText'>1</p>
@@ -93,7 +93,7 @@ function BlueBearPlushieItem() {
                         </div>
                          </button>
                         
-                    <button className='pinkButton'>Add to cart</button>
+                    <button className='pinkButtonB'>Add to cart</button>
                 </div>
                 <hr width="100%" size="2"></hr>
                 <div>
