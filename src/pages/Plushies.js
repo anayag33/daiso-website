@@ -42,7 +42,9 @@ function Plushies() {
             </div>
         </div>
         <div className='containerBottom'>
-            <ItemCard image={BlueBearPlushie} name={"Blue Bear Plushie"} price={1} inStock={true}/>
+            <Link to='/bluebearplushieitem'>
+                <ItemCard image={BlueBearPlushie} name={"Blue Bear Plushie"} price={3} inStock={false}/>
+            </Link>
             <ItemCard image={LobsterBearPlushie} name={"Lobster Bear Plushie"} price={3} inStock={false}/>
             <ItemCard image={GreenDinoPlushie} name={"Green Dinosaur Plushie"} price={5} inStock={true}/>
             <ItemCard image={GreyCatPlushie} name={"Grey Cat Plushie"} price={7} inStock={true}/>

@@ -93,28 +93,28 @@
     margin-top: 10px;
   }
 
-  .colorBlue{
+  .colorChocolate{
     height: 30px;
     width: 30px;
-    background-color: #838F8F;
+    background-color: #523214;
     border-style: none;
     border-radius: 100px;
     margin: 5px
   }
 
-  .colorLime{
+  .colorMatcha{
     height: 30px;
     width: 30px;
-    background-color: #D3CB68;
+    background-color: #84b082;
     border-style: none;
     border-radius: 100px;
     margin: 5px
   }
 
-  .colorYellow{
+  .colorStrawberry{
     height: 30px;
     width: 30px;
-    background-color: #F1E7B2;
+    background-color: #ffb0da;
     border-style: none;
     border-radius: 100px;
     margin: 10px

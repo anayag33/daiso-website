@@ -70,7 +70,9 @@ function Explore() {
         <div className='containerBottom'>
             <ItemCard image={BlackBasket} name={"Black Basket"} price={1} inStock={true}/>
             <ItemCard image={FruitHiChew} name={"Fruit Hi-Chew"} price={3} inStock={true}/>
-            <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={5} inStock={true}/>
+            <Link to='/pockyitem'>
+                <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={5} inStock={true}/>
+            </Link>
             <ItemCard image={RamuneSodaPlain} name={"Ramune Plain Soda"} price={7} inStock={false}/>
         </div>
     </div>

@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import '../styles/BlueBearPlushieItem.css';
-import BlueBearPlushie from '../assets/BlueBearPlushie.png';
-import LimeBearPlushie from '../assets/LimeBearPlushie.png';
-import YellowBearPlushie  from '../assets/YellowBearPlushie.png'
+import '../styles/PockyItem.css';
+import ChocolatePocky from '../assets/ChocolatePocky.png';
+import MatchaPocky from '../assets/MatchaPocky.png';
+import StrawberryPocky  from '../assets/StrawberryPocky.png'
 import Rating from '../assets/Rating.png';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
@@ -14,30 +14,30 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import PlushiesCoverLong from '../assets/PlushiesCoverLong.jpg';
 import DaisoOutside from '../assets/DaisoOutside.png';
 import ItemCard from '../components/ItemCard'
-import LobsterBearPlushie from '../assets/LobsterBearPlushie.png';
-import HamburgerDogPlushie from '../assets/HamburgerDogPlushie.png';
-import YellowBananaPlushie from '../assets/YellowBananaPlushie.png';
-import GreenDinoPlushie from '../assets/GreenDinosaurPlushie.png';
+import ChocolateHelloPanda from '../assets/ChocolateHelloPanda.png';
+import PuchaoFruitGummies from '../assets/PuchaoFruitGummies.png';
+import OriginalShrimpSnacks from '../assets/OriginalShrimpSnacks.png';
+import BotanRiceCandy from '../assets/BotanRiceCandy.png';
 
 
-function BlueBearPlushieItem() {
+function PockyItem() {
 
-    const [color, setColor] = useState(BlueBearPlushie);
-    const [name, setName] = useState("Blue Bear Plushie");
+    const [color, setColor] = useState(ChocolatePocky);
+    const [name, setName] = useState("Chocolate Pocky");
 
-    function changeBlue(){
-        setName("Blue Bear Plushie");
-        setColor(BlueBearPlushie);
+    function changeChocolate(){
+        setName("Chocolate Pocky");
+        setColor(ChocolatePocky);
     }
 
-    function changeLime(){
-        setName("Lime Bear Plushie");
-        setColor(LimeBearPlushie);
+    function changeMatcha(){
+        setName("Matcha Pocky");
+        setColor(MatchaPocky);
     }
 
-    function changeYellow(){
-        setName("Yellow Bear Plushie");
-        setColor(YellowBearPlushie);
+    function changeStrawberry(){
+        setName("Strawberry Pocky");
+        setColor(StrawberryPocky);
     }
 
   return (
@@ -53,11 +53,11 @@ function BlueBearPlushieItem() {
                         <button className='bannerButton'>Shop</button> 
                     </Link>
                     <ArrowForwardIosIcon />
-                    <Link to='/plushies'>
-                        <button className='bannerButton'>Plushies</button> 
+                    <Link to='/snacks'>
+                        <button className='bannerButton'>Snacks</button> 
                     </Link>
                     <ArrowForwardIosIcon />
-                    <Link to='/bluebearplushieitem'>
+                    <Link to='/pockyitem'>
                         <button className='bannerButton'>{name}</button> 
                     </Link>
                 </div>
@@ -69,25 +69,25 @@ function BlueBearPlushieItem() {
             </div>
             <div className='cardText'>
                 <h1>{name}</h1>
-                <p className='priceText'>$15</p>
+                <p className='priceText'>$3</p>
                 <div className='mainCard'>
                     <img className='ratingB' src={Rating}></img>
                     <p className='ratingText'> 5 Customer Reviews</p>
                 </div>
                 <p className='textBear'>
-                    A plush toy that has the squishiness of a comfortable body pillow. 
-                    The bear shape is so cute and the quality is incredibly soft. 
-                    Perfect for babies or adults! 
+                    A delicious snack that comes in multiple flavors! 
+                    the crunchy stick pairs beautofully with the chocolate covering it,
+                    to create the perfect snack!
                 </p>
-                <p className='ratingText'>Colors:</p>
+                <p className='ratingText'>Flavors:</p>
                 <div>
-                    <button className='colorBlue' onClick={changeBlue}>
+                    <button className='colorChocolate' onClick={changeChocolate}>
                         
                     </button>
-                    <button className='colorLime' onClick={changeLime}>
+                    <button className='colorMatcha' onClick={changeMatcha}>
                         
                     </button>
-                    <button className='colorYellow' onClick={changeYellow}>
+                    <button className='colorStrawberry' onClick={changeStrawberry}>
                         
                     </button>
                 </div>
@@ -104,9 +104,9 @@ function BlueBearPlushieItem() {
                 </div>
                 <hr width="100%" size="2"></hr>
                 <div>
-                    <p className='ratingText'>SKU: SS001</p>
-                    <p className='ratingText'>Category: Plushes</p>
-                    <p className='ratingText'>Tags: Plushies, Bear, Cute, Shop</p>
+                    <p className='ratingText'>SKU: SS002</p>
+                    <p className='ratingText'>Category: Snacks</p>
+                    <p className='ratingText'>Tags: Snacks, Pocky, Food, Shop</p>
                     <div className='mainCard'>
                         <p className='ratingText'>Share:</p>
                         <div className='smallSocials'>
@@ -132,13 +132,13 @@ function BlueBearPlushieItem() {
         <hr width="100%" size="2"></hr>
         <h1 className='relatedProductText'>Related Products</h1>
         <div className='relatedProductCards'>
-            <ItemCard image={LobsterBearPlushie} name={"Lobster Bear Plushie"} price={3} inStock={false}/>
-            <ItemCard image={HamburgerDogPlushie} name={"Hamburger Dog Plushie"} price={5} inStock={false}/>
-            <ItemCard image={YellowBananaPlushie} name={"Yellow Banana Plushie"} price={1} inStock={true}/>
-            <ItemCard image={GreenDinoPlushie} name={"Green Dinosaur Plushie"} price={5} inStock={true}/>
+            <ItemCard image={ChocolateHelloPanda} name={"Chocolate Hello Panda"} price={1} inStock={true}/>
+            <ItemCard image={PuchaoFruitGummies} name={"Puchao Fruit Gummies"} price={3} inStock={true}/>
+            <ItemCard image={OriginalShrimpSnacks} name={"Original Shrimp Snacks"} price={5} inStock={false}/>
+            <ItemCard image={BotanRiceCandy} name={"Botan Rice Candy"} price={3} inStock={true}/>
         </div>
     </div>
   )
 }
 
-export default BlueBearPlushieItem
+export default PockyItem

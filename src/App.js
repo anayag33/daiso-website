@@ -15,6 +15,7 @@ import Snacks from './pages/Snacks.js';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import BlueBearPlushieItem from './pages/BlueBearPlushieItem.js';
+import PockyItem from './pages/PockyItem.js';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/plushies" element={<Plushies/>}/>
           <Route path="/snacks" element={<Snacks/>}/>
           <Route path="/bluebearplushieitem" element={<BlueBearPlushieItem/>}/>
+          <Route path="/pockyitem" element={<PockyItem/>}/>
         </Routes>
         <Footer />
       </Router>

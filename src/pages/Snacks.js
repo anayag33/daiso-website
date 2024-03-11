@@ -45,7 +45,9 @@ function Snacks() {
             <ItemCard image={ChocolateHelloPanda} name={"Chocolate Hello Panda"} price={1} inStock={true}/>
             <ItemCard image={FruitHiChew} name={"Fruit Hi Chew"} price={3} inStock={false}/>
             <ItemCard image={YeosSoymilk} name={"Yeo's Soymilk"} price={5} inStock={true}/>
-            <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={7} inStock={true}/>
+            <Link to='/pockyitem'>
+                <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={5} inStock={true}/>
+            </Link>
         </div>
         <div className='containerBottom'>
             <ItemCard image={OriginalShrimpSnacks} name={"Original Shrimp Snacks"} price={1} inStock={true}/>
