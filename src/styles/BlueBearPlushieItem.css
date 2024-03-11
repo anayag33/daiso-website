@@ -81,6 +81,11 @@
     font-size: 14px;
   }
 
+  .descriptionBlurb{
+    font-size: 14px;
+    margin: 40px;
+  }
+
   .ratingText{
     font-size: 14px;
     margin-top: 13px;

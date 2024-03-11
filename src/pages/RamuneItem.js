@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import '../styles/BlueBearPlushieItem.css';
-import BlueBearPlushie from '../assets/BlueBearPlushie.png';
-import LimeBearPlushie from '../assets/LimeBearPlushie.png';
-import YellowBearPlushie  from '../assets/YellowBearPlushie.png'
+import '../styles/RamuneItem.css';
+import RamuneSodaOrange from '../assets/RamuneSodaOrange.png';
+import RamuneSodaMelon from '../assets/RamuneSodaMelon.png';
+import RamuneSodaStrawberry  from '../assets/RamuneSodaStrawberry.png'
 import Rating from '../assets/Rating.png';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
@@ -14,30 +14,30 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import PlushiesCoverLong from '../assets/PlushiesCoverLong.jpg';
 import DaisoOutside from '../assets/DaisoOutside.png';
 import ItemCard from '../components/ItemCard'
-import LobsterBearPlushie from '../assets/LobsterBearPlushie.png';
-import HamburgerDogPlushie from '../assets/HamburgerDogPlushie.png';
-import YellowBananaPlushie from '../assets/YellowBananaPlushie.png';
-import GreenDinoPlushie from '../assets/GreenDinosaurPlushie.png';
+import AloeDrink from '../assets/AloeDrink.png';
+import CalpicoDrinks from '../assets/CalpicoDrinks.png';
+import YeosSoymilk from '../assets/YeosSoymilk.png';
+import MoguMoguLycheeJuice from '../assets/MoguMoguLycheeJuice.png';
 
 
-function BlueBearPlushieItem() {
+function RamuneItem() {
 
-    const [color, setColor] = useState(BlueBearPlushie);
-    const [name, setName] = useState("Blue Bear Plushie");
+    const [color, setColor] = useState(RamuneSodaOrange);
+    const [name, setName] = useState("Ramune Orange Soda");
 
-    function changeBlue(){
-        setName("Blue Bear Plushie");
-        setColor(BlueBearPlushie);
+    function changeChocolate(){
+        setName("Ramune Orange Soda");
+        setColor(RamuneSodaOrange);
     }
 
-    function changeLime(){
-        setName("Lime Bear Plushie");
-        setColor(LimeBearPlushie);
+    function changeMatcha(){
+        setName("Ramune Melon Soda");
+        setColor(RamuneSodaMelon);
     }
 
-    function changeYellow(){
-        setName("Yellow Bear Plushie");
-        setColor(YellowBearPlushie);
+    function changeStrawberry(){
+        setName("Ramune Strawberry Soda");
+        setColor(RamuneSodaStrawberry);
     }
 
   return (
@@ -53,11 +53,11 @@ function BlueBearPlushieItem() {
                         <button className='bannerButton'>Shop</button> 
                     </Link>
                     <ArrowForwardIosIcon />
-                    <Link to='/plushies'>
-                        <button className='bannerButton'>Plushies</button> 
+                    <Link to='/snacks'>
+                        <button className='bannerButton'>Snacks</button> 
                     </Link>
                     <ArrowForwardIosIcon />
-                    <Link to='/bluebearplushieitem'>
+                    <Link to='/ramuneitem'>
                         <button className='bannerButton'>{name}</button> 
                     </Link>
                 </div>
@@ -69,25 +69,25 @@ function BlueBearPlushieItem() {
             </div>
             <div className='cardText'>
                 <h1>{name}</h1>
-                <p className='priceText'>$15</p>
+                <p className='priceText'>$3</p>
                 <div className='mainCard'>
                     <img className='ratingB' src={Rating}></img>
                     <p className='ratingText'> 5 Customer Reviews</p>
                 </div>
                 <p className='textBear'>
-                    A plush toy that has the squishiness of a comfortable body pillow. 
-                    The bear shape is so cute and the quality is incredibly soft. 
-                    Perfect for babies or adults! 
+                    A delicious drink that comes in many flavors! 
+                    Our Ramune drinks do not have fizz until you open 
+                    them and pop in the marble, ensuring your drink is fresh.
                 </p>
-                <p className='ratingText'>Colors:</p>
+                <p className='ratingText'>Flavors:</p>
                 <div>
-                    <button className='colorBlue' onClick={changeBlue}>
+                    <button className='colorOrange' onClick={changeChocolate}>
                         
                     </button>
-                    <button className='colorLime' onClick={changeLime}>
+                    <button className='colorGreen' onClick={changeMatcha}>
                         
                     </button>
-                    <button className='colorYellow' onClick={changeYellow}>
+                    <button className='colorRed' onClick={changeStrawberry}>
                         
                     </button>
                 </div>
@@ -104,9 +104,9 @@ function BlueBearPlushieItem() {
                 </div>
                 <hr width="100%" size="2"></hr>
                 <div>
-                    <p className='ratingText'>SKU: SS001</p>
-                    <p className='ratingText'>Category: Plushes</p>
-                    <p className='ratingText'>Tags: Plushies, Bear, Cute, Shop</p>
+                    <p className='ratingText'>SKU: SS003</p>
+                    <p className='ratingText'>Category: Snacks</p>
+                    <p className='ratingText'>Tags: Snacks, Ramune, Drink, Shop</p>
                     <div className='mainCard'>
                         <p className='ratingText'>Share:</p>
                         <div className='smallSocials'>
@@ -143,13 +143,13 @@ function BlueBearPlushieItem() {
         <hr width="100%" size="2"></hr>
         <h1 className='relatedProductText'>Related Products</h1>
         <div className='relatedProductCards'>
-            <ItemCard image={LobsterBearPlushie} name={"Lobster Bear Plushie"} price={3} inStock={false}/>
-            <ItemCard image={HamburgerDogPlushie} name={"Hamburger Dog Plushie"} price={5} inStock={false}/>
-            <ItemCard image={YellowBananaPlushie} name={"Yellow Banana Plushie"} price={1} inStock={true}/>
-            <ItemCard image={GreenDinoPlushie} name={"Green Dinosaur Plushie"} price={5} inStock={true}/>
+            <ItemCard image={AloeDrink} name={"Aloe Drink"} price={5} inStock={false}/>
+            <ItemCard image={CalpicoDrinks} name={"5 Pack Calpico Drinks"} price={7} inStock={true}/>
+            <ItemCard image={YeosSoymilk} name={"Yeo's Soymilk"} price={5} inStock={true}/>
+            <ItemCard image={MoguMoguLycheeJuice} name={"Mogu Mogu Lychee Juice"} price={7} inStock={false}/>
         </div>
     </div>
   )
 }
 
-export default BlueBearPlushieItem
+export default RamuneItem

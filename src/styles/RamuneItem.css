@@ -98,28 +98,28 @@
     margin-top: 10px;
   }
 
-  .colorChocolate{
+.colorOrange{
     height: 30px;
     width: 30px;
-    background-color: #523214;
+    background-color: #ff8521;
     border-style: none;
     border-radius: 100px;
     margin: 5px
   }
 
-  .colorMatcha{
+  .colorGreen{
     height: 30px;
     width: 30px;
-    background-color: #84b082;
+    background-color: #96ff8c;
     border-style: none;
     border-radius: 100px;
     margin: 5px
   }
 
-  .colorStrawberry{
+  .colorRed{
     height: 30px;
     width: 30px;
-    background-color: #ffb0da;
+    background-color: #ff3d54;
     border-style: none;
     border-radius: 100px;
     margin: 10px

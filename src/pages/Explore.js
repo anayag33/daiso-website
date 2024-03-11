@@ -17,7 +17,7 @@ import ChocolateHelloPanda from '../assets/ChocolateHelloPanda.png';
 import LobsterBearPlushie from '../assets/LobsterBearPlushie.png';
 import FruitHiChew from '../assets/FruitHiChew.png';
 import ChocolatePocky from '../assets/ChocolatePocky.png';
-import RamuneSodaPlain from '../assets/RamuneSodaPlain.png';
+import RamuneSodaOrange from '../assets/RamuneSodaOrange.png';
 import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import ReorderIcon from '@mui/icons-material/Reorder';
 import '../styles/Explore.css';
@@ -54,26 +54,28 @@ function Explore() {
             </div>
         </div>
         <div className='containerBottom'>
-            <ItemCard image={BlueBowls} name={"Set of 4 Blue Bowls"} price={1} inStock={true}/>
+            <Link to='/pockyitem'>
+                <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={5} inStock={true}/>
+            </Link>
             <Link to='/bluebearplushieitem'>
                 <ItemCard image={BlueBearPlushie} name={"Blue Bear Plushie"} price={3} inStock={false}/>
             </Link>
             <ItemCard image={GreyOvenMitts} name={"Grey Oven Mitts"} price={5} inStock={true}/>
-            <ItemCard image={ColoredMarkers} name={"5 Colored Markers"} price={7} inStock={true}/>
+            <Link to='/ramuneitem'>
+                <ItemCard image={RamuneSodaOrange} name={"Ramune Orange Soda"} price={7} inStock={false}/>
+            </Link>
         </div>
         <div className='containerBottom'>
+            <ItemCard image={BlueBowls} name={"Set of 4 Blue Bowls"} price={1} inStock={true}/>
             <ItemCard image={RedAlarmClock} name={"Red Alarm Clock"} price={1} inStock={true}/>
             <ItemCard image={GreenDinoPlushie} name={"Green Dinosaur Plushie"} price={3} inStock={true}/>
-            <ItemCard image={ChocolateHelloPanda} name={"Chocolate Hello Panda"} price={5} inStock={false}/>
-            <ItemCard image={LobsterBearPlushie} name={"Lobster Bear Plushie"} price={7} inStock={true}/>
+            <ItemCard image={ColoredMarkers} name={"5 Colored Markers"} price={7} inStock={true}/>
         </div>
         <div className='containerBottom'>
             <ItemCard image={BlackBasket} name={"Black Basket"} price={1} inStock={true}/>
             <ItemCard image={FruitHiChew} name={"Fruit Hi-Chew"} price={3} inStock={true}/>
-            <Link to='/pockyitem'>
-                <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={5} inStock={true}/>
-            </Link>
-            <ItemCard image={RamuneSodaPlain} name={"Ramune Plain Soda"} price={7} inStock={false}/>
+            <ItemCard image={ChocolateHelloPanda} name={"Chocolate Hello Panda"} price={5} inStock={false}/>
+            <ItemCard image={LobsterBearPlushie} name={"Lobster Bear Plushie"} price={7} inStock={true}/>
         </div>
     </div>
   )

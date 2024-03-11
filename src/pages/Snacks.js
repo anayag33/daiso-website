@@ -4,7 +4,7 @@ import SnacksCoverLong  from '../assets/SnacksCoverLong.png'
 import ChocolateHelloPanda from '../assets/ChocolateHelloPanda.png';
 import FruitHiChew from '../assets/FruitHiChew.png';
 import ChocolatePocky from '../assets/ChocolatePocky.png';
-import RamuneSodaPlain from '../assets/RamuneSodaPlain.png';
+import RamuneSodaOrange from '../assets/RamuneSodaOrange.png';
 import YeosSoymilk from '../assets/YeosSoymilk.png';
 import OriginalShrimpSnacks from '../assets/OriginalShrimpSnacks.png';
 import PuchaoFruitGummies from '../assets/PuchaoFruitGummies.png';
@@ -44,7 +44,9 @@ function Snacks() {
         <div className='containerBottom'>
             <ItemCard image={ChocolateHelloPanda} name={"Chocolate Hello Panda"} price={1} inStock={true}/>
             <ItemCard image={FruitHiChew} name={"Fruit Hi Chew"} price={3} inStock={false}/>
-            <ItemCard image={YeosSoymilk} name={"Yeo's Soymilk"} price={5} inStock={true}/>
+            <Link to='/ramuneitem'>
+                <ItemCard image={RamuneSodaOrange} name={"Ramune Orange Soda"} price={7} inStock={false}/>
+            </Link>
             <Link to='/pockyitem'>
                 <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={5} inStock={true}/>
             </Link>
@@ -56,7 +58,7 @@ function Snacks() {
             <ItemCard image={CalpicoDrinks} name={"5 Pack Calpico Drinks"} price={7} inStock={true}/>
         </div>
         <div className='containerBottom'>
-            <ItemCard image={RamuneSodaPlain} name={"RamuneSodaPlain"} price={1} inStock={true}/>
+            <ItemCard image={YeosSoymilk} name={"Yeo's Soymilk"} price={5} inStock={true}/>
             <ItemCard image={BotanRiceCandy} name={"Botan Rice Candy"} price={3} inStock={true}/>
             <ItemCard image={LycheeGummyCandies} name={"Lychee Gummy Candies"} price={5} inStock={true}/>
             <ItemCard image={MoguMoguLycheeJuice} name={"Mogu Mogu Lychee Juice"} price={7} inStock={false}/>
