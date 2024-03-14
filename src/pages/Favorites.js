@@ -19,21 +19,21 @@ function Favorites() {
       <h1 className='heading'>Favorites (8)</h1>
       <div className='containerBottom'>
             <Link to='/pockyitem'>
-                <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={5} inStock={true}/>
+                <ItemCard image={ChocolatePocky} name={"Chocolate Pocky"} price={5} inStock={true} fav={true}/>
             </Link>
             <Link to='/bluebearplushieitem'>
-                <ItemCard image={BlueBearPlushie} name={"Blue Bear Plushie"} price={3} inStock={false}/>
+                <ItemCard image={BlueBearPlushie} name={"Blue Bear Plushie"} price={3} inStock={false} fav={true}/>
             </Link>
-            <ItemCard image={GreyOvenMitts} name={"Grey Oven Mitts"} price={5} inStock={true}/>
+            <ItemCard image={GreyOvenMitts} name={"Grey Oven Mitts"} price={5} inStock={true} fav={true}/>
             <Link to='/ramuneitem'>
-                <ItemCard image={RamuneSodaOrange} name={"Ramune Orange Soda"} price={7} inStock={false}/>
+                <ItemCard image={RamuneSodaOrange} name={"Ramune Orange Soda"} price={7} inStock={false} fav={true}/>
             </Link>
         </div>
         <div className='containerBottom'>
-            <ItemCard image={BlueBowls} name={"Set of 4 Blue Bowls"} price={1} inStock={true}/>
-            <ItemCard image={RedAlarmClock} name={"Red Alarm Clock"} price={1} inStock={true}/>
-            <ItemCard image={GreenDinoPlushie} name={"Green Dinosaur Plushie"} price={3} inStock={true}/>
-            <ItemCard image={ColoredMarkers} name={"5 Colored Markers"} price={7} inStock={true}/>
+            <ItemCard image={BlueBowls} name={"Set of 4 Blue Bowls"} price={1} inStock={true} fav={true}/>
+            <ItemCard image={RedAlarmClock} name={"Red Alarm Clock"} price={1} inStock={true} fav={true}/>
+            <ItemCard image={GreenDinoPlushie} name={"Green Dinosaur Plushie"} price={3} inStock={true} fav={true}/>
+            <ItemCard image={ColoredMarkers} name={"5 Colored Markers"} price={7} inStock={true} fav={true}/>
         </div>
     </div>
   )
