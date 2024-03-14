@@ -1,0 +1,10 @@
+.containerBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.heading{
+    margin: 20px;
+}

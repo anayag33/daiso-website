@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: pink; /* Replace with your header color */
+    /* Rest of your header styling */
+}
+
+.favorites-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.item-card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; /* Adjust as needed */
+    background-color: #f9f9f9;
+}
+
+.item-image img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-info {
+    padding: 10px;
+}
+
+.item-info h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.price {
+    color: #666;
+    font-size: 16px;
+}
+
+.stock-status {
+    color: green;
+    font-size: 14px;
+}
+
+.banner{
+    height: 75px;
+    width: 100%;
+    background-color: #F9E7E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: left; 
+}
+
+.bannerText{
+    margin-left: 50px;
+    font-size: 14px;
+    color: grey;
+}
+
+.bannerButton{
+    border-style: none;
+    background-color: #F9E7E7;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.heading{
+    margin: 20px;
+}
+
+.form{
+    /* border:none; */
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.greyButton{
+    height: 40px;
+    width: 75;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    color: grey;
+    border-radius: 5px;
+}
+
+.pinkButton{
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    background-color:#D83289;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+.containerBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.map{
+    height: 450px;
+    margin: 30px;
+}
+
+.storeCard{
+    margin: 30px;
+    border-style: solid none none none;
+    border-color: lightgray;
+    padding: 20px
+}
+
+.storeLocation{
+    font-weight: bold;
+}
