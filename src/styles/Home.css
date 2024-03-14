@@ -36,14 +36,14 @@
   }
   
   .category-container {
-    background-color: white;
+    background-color: #FAFAFA;
     padding: 20px;
   }
 
   .category-container h2{
     margin-left: 10px;
     margin-bottom: 10px;
-    font-size: 1.5em;
+    font-size: 2em;
   text-align: left;
 
   }
@@ -65,7 +65,6 @@
   .category-rectangle {
     width: calc(33.33% - 20px);
     background-color: white;
-    border: 1px solid #D83289;
     padding: 0;
   }
   
@@ -81,3 +80,61 @@
     width: 100%;
 
   }
+
+  .newsletter-container {
+    position: relative; /* Make the container relative */
+}
+
+
+.newsletter-rectangle {
+  background-color: white;
+  padding: 20px;
+  position: absolute; /* Position the rectangle absolutely within the container */
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  width: 55%; /* Adjust as needed */
+  z-index: 1; /* Ensure it's above other content */
+  text-align: center; /* Center text horizontally */
+  padding: 50px 70px;
+}
+
+.newsletter-rectangle p {
+  color:#C02771;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background-color: #D83289;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe-form button:hover {
+  background-color: #C02771;
+}
+
+.aisles {
+  width: 100%; /* Ensure aisles image takes full width */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 0; /* Lower z-index to ensure it's below other content */
+}
+

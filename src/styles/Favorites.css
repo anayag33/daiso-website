@@ -8,3 +8,10 @@
 .heading{
     margin: 20px;
 }
+
+.bestseller-rectangles{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+}
