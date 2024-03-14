@@ -1,6 +1,6 @@
 .home {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -11,13 +11,73 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
 
-  .bannerMessage{
+
+  .home-container {
     width: 100%;
-    height: 75px;
+    height: 100%;
+  }
+  
+  .jumbotron {
+    position: relative;
+    width: 100vw;
+    height: 100%; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .intro {
+    position: absolute;
+    top: 70%;
+    left: 70%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    width: 45%; /* Adjust as needed */
+    height: auto;
+    z-index: 1; /* Ensure it's above the jumbotron image */
+  }
+  
+  .category-container {
+    background-color: white;
+    padding: 20px;
+  }
+
+  .category-container h2{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  text-align: left;
+
+  }
+  
+  .pink-line {
+    height: 3px;
     background-color: #D83289;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .category-rectangles {
     display: flex;
-    flex-direction: row;
-    color: white;
-    display: flex;
-    align-items: center;
+    justify-content: space-between;
+    margin: 20px, 40px, 20px, 40px ;
+  }
+  
+  .category-rectangle {
+    width: calc(33.33% - 20px);
+    background-color: white;
+    border: 1px solid #D83289;
+    padding: 0;
+  }
+  
+  .category-rectangle h3 {
+    margin-top: 0;
+  }
+  
+  .category-rectangle p {
+    margin: 0;
+  }
+
+  .goods{
+    width: 100%;
+
   }

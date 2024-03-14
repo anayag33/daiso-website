@@ -10,11 +10,11 @@ import SearchIcon from '@mui/icons-material/Search';
 
 function Navbar() {
   return (
-    <div>
+    <div className='/navbar-container'>
       <div className='navbarP'>
         <div className='arrow'>
           <LocationOnIcon />
-        </div>
+        </div>/
         <Link to='/storelocator'>
           <button className='location'>
             Choose Location
