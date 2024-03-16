@@ -83,7 +83,9 @@ function SignIn() {
             <br />
           </form>
           <div className='sign-forget'>
-            <button className='signin-btn' type="submit">Sign In</button>
+            <Link to='/'>
+              <button className='signin-btn' type="submit">Sign In</button>
+            </Link>
             <br />
             <Link to='/signup'>
               <a href='/signup'>Forgot your account?</a>
