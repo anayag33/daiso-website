@@ -1,0 +1,136 @@
+.main-cont{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    height: 70vh;
+    margin-top: 40px;
+}
+
+.main-cont2{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    height: 100vh;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.signin-stuff{
+    padding-left: 80px;
+}
+
+.inputs{
+    align-items: left;
+    text-align: left;
+}
+
+label{
+    font-size: 20px;
+    display: block;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border-color: #D83289;
+}
+.checkboxContent{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    border-color: #D83289;
+}
+
+.inputContent{
+    width: 900px;
+    padding: 0.5rem;
+    border-color: #D83289;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.tip{
+    margin-bottom: 10px;
+}
+
+.signin-btn{
+    background-color: #D83289;
+    border-color: #D83289;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 900px;
+    padding: 0.5rem;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.signin-stuff{
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-forget{
+    /* width: 100vw; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.no-account{
+    width: 100vw;
+    height: 10vw;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.no-text{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    text-align: left;
+    padding-left: 300px;
+}
+
+.create-btn{
+    background-color: white;
+    border-color: #D83289;
+    border-radius: 5px;
+    color: #D83289;
+    height: 50px;
+    width: 900px;
+    padding: 0.5rem;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.create-account{
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.create-c{
+    display: flex;
+    align-items: left;
+    padding-right: 40px;
+}
