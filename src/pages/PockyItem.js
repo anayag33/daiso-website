@@ -71,7 +71,7 @@ function PockyItem() {
                 <h1>{name}</h1>
                 <p className='priceText'>$3</p>
                 <div className='mainCard'>
-                    <img className='ratingB' src={Rating}></img>
+                    <img className='ratingB' alt='ratingBpic' src={Rating}></img>
                     <p className='ratingText'> 5 Customer Reviews</p>
                 </div>
                 <p className='textBear'>
@@ -137,8 +137,8 @@ function PockyItem() {
         leather strap enables easy and stylish travel.
         </p>
         <div className='main'>
-            <img src={PlushiesCoverLong} className='descriptionImage'></img>
-            <img src={DaisoOutside}  className='descriptionImage'></img>
+            <img src={PlushiesCoverLong} alt='plushiescoverpic' className='descriptionImage'></img>
+            <img src={DaisoOutside}  alt='outsidepic' className='descriptionImage'></img>
         </div>
         <hr width="100%" size="2"></hr>
         <h1 className='relatedProductText'>Related Products</h1>
