@@ -7,12 +7,12 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function StoreLocator() {
 
-  function clearResults() {
-    // This function clears the search results
-    document.querySelectorAll('.store').forEach(function(store) {
-        store.style.display = 'none';
-    });
-}
+  // function clearResults() {
+  //   // This function clears the search results
+  //   document.querySelectorAll('.store').forEach(function(store) {
+  //       store.style.display = 'none';
+  //   });
+
   return (
     <div>
       <div className='banner'>

@@ -23,9 +23,9 @@ function About() {
             </p>
         </div>
 
-        <img src={AboutInfoImage} className="about-info" />
+        <img src={AboutInfoImage} alt='aboutinfo' className="about-info" />
 
-        <img src={AboutUsImage} className="about-us" />
+        <img src={AboutUsImage} alt='aboutus' className="about-us" />
 
 
 
