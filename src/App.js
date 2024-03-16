@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
 import Explore from './pages/Explore';
 import Cart from './pages/Cart.js';
 import Checkout from './pages/Checkout.js';
+import Confirmation from './pages/Confirmation.js';
 import SignIn from './pages/SignIn.js';
 import SignUp from './pages/SignUp.js';
 import StoreLocator from './pages/StoreLocator.js';
@@ -28,6 +29,7 @@ function App() {
           <Route path="/explore" element={<Explore/>}/>
           <Route path="/cart" element={<Cart/>}/>
           <Route path="/checkout" element={<Checkout/>}/>
+          <Route path="/confirmation" element={<Confirmation/>}/>
           <Route path="/signin" element={<SignIn/>}/>
           <Route path="/signup" element={<SignUp/>}/>
           <Route path="/storelocator" element={<StoreLocator/>}/>

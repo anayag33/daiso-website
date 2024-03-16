@@ -23,7 +23,7 @@ function Navbar() {
       </div>
       <div className='navbarW'>
         <Link to='/'>
-          <img className='logo' src={Logo}/>
+          <img className='logo' alt='logopic' src={Logo}/>
         </Link>
         <Link to='/'>
           <button className='about'>
