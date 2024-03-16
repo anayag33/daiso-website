@@ -25,13 +25,13 @@ function Home() {
         <div className="pink-line"></div>
         <div className="category-rectangles">
           <Link to="/explore" className="category-rectangle" >
-            <img src={HomeGoods} className="goods" />
+            <img src={HomeGoods} alt='homepic' className="goods" />
           </Link>
           <Link to="/plushies" className="category-rectangle">
-          <img src={Plushie} className="goods" />
+          <img src={Plushie} alt='plushiepic' className="goods" />
           </Link>
           <Link to="/explore" className="category-rectangle">
-          <img src={Stationary} className="goods" />
+          <img src={Stationary} alt='stationarypic' className="goods" />
           </Link>
         </div>
       </div>
